@@ -1,0 +1,92 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+  }
+  #navbarMonstera{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: 2% 5%;
+    height: 10vh;
+  }
+
+  #navMid{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    
+  }
+  #navEnd{
+    display: flex;
+    width: 10vw;
+    justify-content: space-between  ;
+    font-size: 1.2em;
+  }
+
+  #midWhole{
+    display: flex;
+    /* height: 50vh; */
+    font-family:"Allerta";
+    /* margin-left: 10%; */
+    
+  }
+
+  #midWholePart1{
+    width: 60vw;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  #midWholePart11{
+    max-width: 40vw;
+  }
+  #midWholePart11 #monstera{
+    font-size: 5em;
+    font-family: "Public Sans";
+  }
+  #midWholePart2{
+    width: 40vw;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  #midWholePart2 img{
+    width: 100%;
+    overflow: hidden;
+    /* height: 90%; */
+    /* margin-left: %; */
+  }
+
+  #midWholePart13{
+    display: flex;
+  }
+  .midWholePart13Parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+  }
+
+  #midWholePart121 h1{
+    font-size: 2em; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(62, 120, 4);
+    width: 17vw;
+    margin: 2.5em 0;
+    color: white;
+  }
+
+  .text{
+    font-size: 10px;
+  }
+  .bt-text{
+    margin-left: 5px;
+  }
+  #plant img{
+    width: 3vw;
+    
+  }
